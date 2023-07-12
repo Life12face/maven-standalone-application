@@ -8,17 +8,17 @@
         <packaging>jar</packaging>
 
         <name>maven-stanalone-application</name>
-        <url>http://mylandmarktech.com</url>
+        <url>http://Life12face.com</url>
 
         <organization>
-                <name>Landmark Technologies</name>
-                <url>http://mylandmarktech.com/</url>
+                <name>Life12face</name>
+                <url>http://life12face.com/</url>
         </organization>
 
         <description>Maven Standalone Application</description>
 
         <properties>
-                <sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
+                <sonar.host.url>http://18.233.224.108:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
                 <sonar.password>admin</sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,19 +37,20 @@
 
         </dependencies>
 
-        <!-- Committing and updating changes through Maven, by using below mvn command.
+ <!-- Committing and updating changes through Maven, by using below mvn command.
                 For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating
                 mvn scm:update -->
         <!--
         <scm>
-                <connection>scm:git:https://github.com/LandmarkTechnology/maven-standalone-applicationn</connection>
-                <developerConnection>scm:git://github.com/LandmarkTechnology/maven-standalone-application</developerConnection>
+                <connection>scm:git:https://github.com/Life12face/maven-standalone-application</connection>
+                <developerConnection>scm:git://github.com/Life12face/maven-standalone-application</developerConnection>
                 <tag>HEAD</tag>
-                <url>https://github.com/LandmarkTechnology/maven-standalone-application</url>
+                <url>https://github.com/Life12face/maven-standalone-application</url>
+
         </scm>
         <issueManagement>
                 <system>GitHub</system>
-                <url>//github.com/LandmarkTechnology/maven-standalone-application/issues</url>
+                <url>//github.com/Life12face/maven-standalone-application</url>
         </issueManagement>
         -->
         <build>
@@ -73,4 +74,3 @@
         </build>
 
 </project>
-
